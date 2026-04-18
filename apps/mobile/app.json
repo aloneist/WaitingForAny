@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Waiting For AI",
+    "slug": "waiting-for-ai",
+    "scheme": "waitingforai",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "plugins": ["expo-router"]
+  }
+}

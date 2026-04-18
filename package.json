@@ -1,0 +1,16 @@
+{
+  "name": "waiting-for-ai",
+  "private": true,
+  "packageManager": "pnpm@10",
+  "scripts": {
+    "dev:web": "turbo run dev --filter=web",
+    "dev:mobile": "turbo run dev --filter=mobile",
+    "build:web": "turbo run build --filter=web",
+    "lint": "turbo run lint",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.3"
+  }
+}
